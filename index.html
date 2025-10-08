@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gangai Farms | नैसर्गिक पशु आहार</title>
+    <link rel="website icon" type="png/jpeg" href="ganagais.jpeg">
+    <!-- Load Tailwind CSS -->
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Use Inter font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles for the natural look and attractive effects */
+        :root {
+            --color-primary: #065F46; /* Deep Forest Green */
+            --color-secondary: #D97706; /* Rustic Orange */
+            --color-cream: #FEF3C7; /* Pale Cream */
+            --color-text: #1F2937; /* Dark Grey Text */
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--color-text);
+        }
+        /* Custom hero background pattern/texture */
+        .hero-bg {
+            background-color: var(--color-cream);
+            background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.8) 50%, rgba(254, 243, 199, 0.5) 100%);
+        }
+        .footer-bg {
+            background-color: var(--color-primary);
+        }
+        /* Animation for buttons */
+        .btn-effect {
+            transition: all 0.3s ease-in-out;
+        }
+        .btn-effect:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(6, 95, 70, 0.4);
+        }
+        
+        /* Custom styles for the new display image (Enhanced with 3D and sepia) */
+        .display-img-effect {
+            /* Initial look: Warm, stylized sepia/grayscale with subtle perspective */
+            filter: sepia(20%) grayscale(5%) blur(0.2px); 
+            /* Smoother transition curve for a professional feel */
+            transition: all 0.7s cubic-bezier(0.25, 0.8, 0.25, 1); 
+            /* Enhanced shadow for depth */
+            box-shadow: 0 15px 45px rgba(0, 0, 0, 0.3);
+            /* Enable 3D perspective for the hover effect */
+            transform: perspective(1000px); 
+        }
+        .display-img-effect:hover {
+            /* On hover, remove filter effects to show original color */
+            filter: sepia(0%) grayscale(0%) blur(0px);
+            /* Subtle 3D tilt and slight zoom */
+            transform: perspective(1000px) rotateY(2deg) scale(1.02); 
+            /* Stronger shadow on hover */
+            box-shadow: 0 25px 60px rgba(0, 0, 0, 0.5); 
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50">
+
+    <!-- Header & Navigation (Simplified for mobile-style header from reference image) -->
+    <header class="sticky top-0 z-50 bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            
+            <!-- Logo, Title, and Tagline (Aligned left as in reference) -->
+            <div class="flex items-start space-x-3">
+                <img src="ganagais.jpeg" alt="Gangai Farms Logo" class="h-10 w-auto">
+                <div class="hidden sm:block">
+                    <h1 class="text-xl font-bold text-[var(--color-primary)] tracking-tight">GANGAI FARMS</h1>
+                    <p class="text-sm font-semibold text-[var(--color-secondary)] italic">
+                        नैसर्गिक पशु आहार <span class="text-gray-500 text-xs font-normal"></span>
+                    </p>
+                </div>
+            </div>
+   
+            <!-- Navigation Links (Still using desktop menu for full site functionality) -->
+            <nav class="hidden md:flex space-x-12 text-lg font-medium">
+                <a href="#home" class="text-gray-700 hover:text-[var(--color-secondary)] transition duration-300">Home</a>
+                <a href="#about" class="text-gray-700 hover:text-[var(--color-secondary)] transition duration-300">About Us</a>
+                <a href="#products" class="text-gray-700 hover:text-[var(--color-secondary)] transition duration-300">Products</a>
+                
+                <a href="#contact" class="text-gray-700 hover:text-[var(--color-secondary)] transition duration-300">Contact</a>
+            </nav>
+
+            <!-- Mobile Menu Button (Placed on the far right, mimicking reference menu icon) -->
+            
+        </div>
+    </header>
+  
+
+
+    <main>
+        
+        <!-- Hero Section (Simple and Attractive Home Page) -->
+        <section id="home" class="hero-bg pt-16 pb-24 sm:pt-20 sm:pb-32 text-center overflow-hidden">
+            <div class="max-w-6xl mx-auto px-4">
+                
+                <!-- Main Headline -->
+                <h2 class="text-5xl sm:text-7xl font-extrabold text-[var(--color-primary)] mb-6 leading-tight">
+                    Nourishing Life, <br class="sm:hidden"> The Natural Way.
+                </h2>
+                
+                <!-- Supporting Sub-text -->
+                <p class="text-xl sm:text-2xl text-gray-700 max-w-4xl mx-auto mb-10 font-light">
+                    Gangai Farms provides Natural Animal Feed, upholding a commitment to purity, sustainability, and superior livestock health.
+     
+
+                <!-- Featured Image with Effects -->
+                <div class="relative w-full max-w-5xl mx-auto mt-8">
+                  
+                    <!-- Primary Call to Action Button -->
+                    <a href="#products" class="absolute bottom-0.1 left-1/2 -translate-x-1/2 btn-effect inline-flex items-center justify-center px-8 py-3 text-lg font-bold rounded-full shadow-xl text-white bg-[var(--color-secondary)] hover:bg-orange-600 transition duration-300">
+                        Explore Our Natural Feed
+                    </a>
+                </div>
+            </div>
+        </section>
+                   </p>
+ <div class="overflow-hidden whitespace-nowrap marquee-bar">
+    <div class="inline-block animate-marquee">
+    आमच्या येथे सर्व प्रकारचे नैसर्गिक पशू आहार उपलब्ध आहे. 
+     जनावरांच्या पोषणासाठी उच्च दर्जाचे खाद्य ,
+    दुधाळ जनावरांसाठी विशेष खाद्य उपलब्ध ,
+    गंगाई फार्म्स — तुमच्या पशुपालनाचा विश्वासू साथीदार! ,
+    १००% नैसर्गिक आणि रासायनिक मुक्त उत्पादने ,
+    पोषणमूल्याने समृद्ध, ताजे आणि गुणवत्तापूर्ण पशू खाद्य ,
+    गंगाई फार्म्स – आरोग्यदायी पशुपालनासाठी तुमचा भरोसेमंद ब्रँड!
+    </div>
+ </div>
+ <style>
+    @keyframes marquee {
+        0%   { transform: translateX(100%); }
+        100% { transform: translateX(-100%); }
+    }
+    .animate-marquee {
+        animation: marquee 25s linear infinite;
+    }
+    .marquee-bar {
+        background-color: white;
+        color: rgba(5, 50, 37, 0.4);
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px 0;
+        text-shadow: 0px 0px 1px rgba(4, 46, 34, 0.4);
+    }
+ </style>
+
+        <!-- About Us Section (Updated to be a simple, bold 'Welcome' section like the reference) -->
+        <section id="about" class="pt-16 pb-16 sm:pb-24 bg-white">
+            <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                
+                <!-- Welcome Title -->
+                <h2 class="text-5xl sm:text-6xl font-extrabold text-[var(--color-primary)] mb-6 leading-tight">
+                    Welcome to <br class="sm:hidden"> Gangai Farms
+                </h2>
+                
+                <!-- Introductory Paragraph (Like the reference text) -->
+                <p class="text-xl sm:text-2xl text-gray-700 font-light leading-relaxed">
+                    One of the eminent names in the Natural Animal Feed industry, Gangai Farms is committed to delivering premium, non-adulterated nourishment. We diligently focus on sustainable practices, ensuring health and productivity from our farms to your livestock.
+                </p>
+            </div>
+        </section>
+        
+        <!-- Original Features Section (Moved down) -->
+        <section class="pb-16 sm:pb-24 bg-white border-t border-gray-100">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h3 class="text-lg font-semibold text-[var(--color-secondary)] uppercase tracking-wider">Our Philosophy</h3>
+                    <p class="mt-2 text-4xl font-extrabold text-[var(--color-text)] sm:text-5xl">
+                        Committed to Quality and Nature
+                    </p>
+                </div>
+                <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Feature 1 -->
+                    <div class="bg-white p-8 rounded-xl shadow-xl hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-1">
+                        <div class="text-4xl text-[var(--color-primary)] mb-4">&#x269C;</div>
+                        <h4 class="text-xl font-bold mb-2">100% Natural Ingredients</h4>
+                        <p class="text-gray-600">We source only the finest, non-GMO grains and fodder, ensuring purity and high nutritional value for all animals.</p>
+                    </div>
+                    <!-- Feature 2 -->
+                    <div class="bg-white p-8 rounded-xl shadow-xl hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-1">
+                        <div class="text-4xl text-[var(--color-primary)] mb-4">&#x1F33F;</div>
+                        <h4 class="text-xl font-bold mb-2">Sustainable Farming</h4>
+                        <p class="text-gray-600">Our practices focus on soil health and biodiversity, reflecting our dedication to a truly 'naisargic' (natural) approach.</p>
+                    </div>
+                    <!-- Feature 3 -->
+                    <div class="bg-white p-8 rounded-xl shadow-xl hover:shadow-2xl transition duration-500 ease-in-out transform hover:-translate-y-1">
+                        <div class="text-4xl text-[var(--color-primary)] mb-4">&#x2713;</div>
+                        <h4 class="text-xl font-bold mb-2">Validated Nutrients</h4>
+                        <p class="text-gray-600">Every batch is rigorously tested to guarantee balanced nutrition, leading to healthier, more productive livestock.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CEO Message Section -->
+        <section id="ceo" class="py-16 sm:py-24 bg-[var(--color-cream)]">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="bg-white rounded-3xl shadow-2xl p-8 md:p-12 lg:p-16 flex flex-col md:flex-row items-center gap-8 transition duration-700 ease-in-out hover:scale-[1.02]">
+                    <!-- CEO Photo -->
+                    <div class="flex-shrink-0">
+                        <img 
+                            src="sainiture.jpeg" 
+                            alt="Photo of Sai Niture, CEO" 
+                            class="w-40 h-40 object-cover rounded-full border-4 border-[var(--color-secondary)] shadow-lg"
+                        >
+                    </div>
+                    
+                    <!-- CEO Message -->
+                    <div class="text-center md:text-left">
+                        <h3 class="text-3xl font-bold text-[var(--color-primary)] mb-2">A Message from the Founder</h3>
+                        <p class="text-lg text-gray-700 italic border-l-4 border-[var(--color-primary)] pl-4">
+                            "At Gangai Farms, our vision is simple: to bring the health of the field directly to your animals. We believe that true productivity begins with natural, unadulterated nourishment. We are not just making feed; we are cultivating wellness for your entire farm ecosystem."
+                        </p>
+                        <p class="mt-4 text-xl font-semibold text-[var(--color-secondary)]">- Sainath Niture, CEO</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section (Mock) -->
+        <section id="products" class="py-16 sm:py-24 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h3 class="text-lg font-semibold text-[var(--color-secondary)] uppercase tracking-wider">Our Range</h3>
+                    <p class="mt-2 text-4xl font-extrabold text-[var(--color-text)] sm:text-5xl">
+                        Superior Natural Animal Feed
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Product Card 1: Cattle Feed -->
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden transition duration-500 hover:shadow-2xl">
+                        <img src="ga2i.JPG" alt="Cattle Feed" class="w-full h-49 object-cover transform hover:scale-103 transition duration-500">
+                        <div class="p-6">
+                            <h4 class="text-2xl font-bold text-[var(--color-primary)] mb-2">Dairy Cattle Feed</h4>
+                            <p class="text-gray-600 mb-4">High-protein, mineral-rich mix designed for peak milk production and cow health.</p>
+                            <a href="#" class="text-[var(--color-secondary)] font-medium hover:text-orange-700 flex items-center">
+                                View Details 
+                                <span class="ml-1 text-xl">&rarr;</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 2: Poultry Feed -->
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden transition duration-500 hover:shadow-2xl">
+                        <img src="bufalow.jpeg" alt="Buffalo Feed" class="w-full h-48.5 object-cover transform hover:scale-103 transition duration-500">
+                        <div class="p-6">
+                            <h4 class="text-2xl font-bold text-[var(--color-primary)] mb-2">Organic Buffalo Feed</h4>
+                            <p class="text-gray-600 mb-4">Balanced formula supporting healthy growth and robust milk production for all buffalo.</p>
+                            <a href="#" class="text-[var(--color-secondary)] font-medium hover:text-orange-700 flex items-center">
+                                View Details 
+                                <span class="ml-1 text-xl">&rarr;</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Product Card 3: Goat/Sheep Feed -->
+                    <div class="bg-white rounded-xl shadow-lg overflow-hidden transition duration-500 hover:shadow-2xl">
+                        <img src="sheep.webp" alt="Goat/Sheep Feed" class="w-full h-48.5 object-cover transform hover:scale-105 transition duration-500">
+                        <div class="p-6">
+                            <h4 class="text-2xl font-bold text-[var(--color-primary)] mb-2">Small Ruminant Mix</h4>
+                            <p class="text-gray-600 mb-4">Essential nutrition, tailored for the unique digestive needs of sheep and goats.</p>
+                            <a href="#" class="text-[var(--color-secondary)] font-medium hover:text-orange-700 flex items-center">
+                                View Details 
+                                <span class="ml-1 text-xl">&rarr;</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Stylish Footer -->
+    <footer id="contact" class="footer-bg text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 border-b border-green-700 pb-8 mb-8">
+                
+                <!-- Farm Info -->
+                <div class="md:col-span-1">
+                    <h5 class="text-2xl font-bold text-[var(--color-cream)] mb-3">Gangai Farms</h5>
+                    <p class="text-green-200">
+                        नैसर्गिक पशु आहार
+                    </p>
+                    <p class="text-green-300 mt-2 text-sm">
+                        Committed to natural wellness for your farm.
+                    </p>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h6 class="text-xl font-semibold mb-4 text-green-100">Quick Links</h6>
+                    <ul class="space-y-2">
+                        <li><a href="#about" class="text-green-300 hover:text-[var(--color-secondary)] transition duration-300">About Us</a></li>
+                        <li><a href="#products" class="text-green-300 hover:text-[var(--color-secondary)] transition duration-300">Our Products</a></li>
+                        <li><a href="#" class="text-green-300 hover:text-[var(--color-secondary)] transition duration-300">Careers</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Information -->
+                <div>
+                    <h6 class="text-xl font-semibold mb-4 text-green-100">Get In Touch</h6>
+                    <ul class="space-y-2 text-green-300">
+                        <li>&#9993; gangaifarms@gmail.com</li>
+                        <li>&#9742; 9156623051  / 8624883088</li>
+                        <li>&#127969; Naigaon Bajar,Nanded,Maharashtra, India</li>
+                    </ul>
+                </div>
+
+                 <!-- Social Media -->
+                 <div>
+                    <h6 class="text-xl font-semibold mb-4 text-green-100">Follow Us</h6>
+                    <div class="flex space-x-4">
+                        <!-- Placeholder for social icons -->
+                        <a href="#" class="text-2xl text-green-300 hover:text-[var(--color-secondary)] transition duration-300" aria-label="Facebook">&#x1F4F1;</a>
+                        <a href="#" class="text-2xl text-green-300 hover:text-[var(--color-secondary)] transition duration-300" aria-label="Instagram">&#x1F4F7;</a>
+                        <a href="#" class="text-2xl text-green-300 hover:text-[var(--color-secondary)] transition duration-300" aria-label="LinkedIn">&#x1F4C3;</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="text-center pt-4">
+                <p class="text-sm text-green-400">&copy; <span id="currentYear"></span> Gangai Farms. All Rights Reserved. | Designed with Natural Care.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Simple JavaScript for dynamic year in footer -->
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
